@@ -8,7 +8,7 @@ import { ProductoCard } from '../../components/producto-card/producto-card';
   styleUrl: './productos.css',
 })
 export class Productos {
-   productos: Producto[] [
+   productos: Producto[] = [
     {
       id: 1,
       nombre: 'SuperGirl',
